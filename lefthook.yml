@@ -14,3 +14,5 @@ pre-push:
       run: npx biome check --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {push_files}
     tsc:
       run: npm run typecheck
+    test:
+      run: npm run test
